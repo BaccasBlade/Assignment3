@@ -1,0 +1,122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	color: black;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+	display: grid;
+	grid-template-columns: (8,1fr);
+	grid-template-rows: (8,1fr);
+ }
+ .wrapper{
+	grid-row: 1/2;
+	grid-column: 1/9;
+	display: grid;
+	grid-template-columns: (8,1fr);
+	grid-template-rows: 1fr;
+	background-color: black;
+ }
+ 
+ .headertitle{
+	grid-row: 1/2;
+	grid-column: 2/4;
+	
+ }
+ .headertitle h1{
+	display: inline-flex;
+	font-size: 49px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color:orange;
+	margin: 1em 0em 0em 0em;
+ }
+ .WebPage{
+	grid-row: 1/2;
+	grid-column: 8/9;
+ }
+ .WebPage a{
+	display: inline-flex;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: white;
+	padding: 1em;
+	border-radius: 20px;
+	background-color: orange;
+	margin: 2em 0em 0em 0em;
+ }
+ .WebPage a:hover{
+	background-color: darkred;
+	color: white;
+ }
+ #home{
+	background-color: orangered;
+	color: white;
+ }#home:hover{
+	background-color: darkred;
+ }
+ .main{
+	background-color: white;
+	color: white;
+	grid-row: 2/4;
+	grid-column: 1/9;
+	font-size: 25px;
+	padding: 3em;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .empty{
+	background-color: rgb(17, 17, 17);
+	grid-row: 4/5;
+	grid-column: 1/9;
+	display: grid;
+	grid-template-columns: (8,1fr);
+	grid-template-rows: 1fr;
+ }
+ .java img{
+	width: 600px;
+	height: auto;
+	background-color: rgb(17, 17, 17);
+	
+	
+ }
+ h3{
+	 font-size: 150%;
+ }

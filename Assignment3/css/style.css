@@ -1,0 +1,36 @@
+@import "reset.css";
+@import "form.css";
+
+*,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    margin: 0;
+    min-height: calc(100vh - 100px);
+    letter-spacing: -1px;
+  }
+
+
+.card-img-top{
+  height:283px;
+  width:100%;
+}
+
+body{
+    background-image:linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url(../images/background1.jpg);
+    background-size:cover;
+    background-position:center center;
+    background-attachment:fixed;
+    
+}
+
+.container, .container-fluid{
+  font-weight:bold;
+  color:black;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+
